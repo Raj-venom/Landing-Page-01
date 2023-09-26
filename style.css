@@ -45,9 +45,7 @@ body {
 .lnav a i {
   color: royalblue;
 }
-.lnavr {
-  margin-right: 120px;
-}
+
 
 .left .textcenter {
   position: absolute;
@@ -145,4 +143,7 @@ body {
   .lnav .arrow {
     margin-left: 0px;
   }
+
+
+  
 }
