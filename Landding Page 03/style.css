@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color:#BEA5AB;
+    display: flex;
+}
+
+#left{
+    height: 100%;
+    width: 25%;
+}
+
+#mid{
+    height: 100%;
+    width: 67%;
+    background-color: gray;
+    background-image: url('https://images.unsplash.com/photo-1536129808005-fae894214c73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80');
+    background-size: cover;
+    background-position: 50%  40%;
+}
+
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(190, 165, 171, 0.17);;
+
+}
+
+#right{
+    height: 100%;
+    width: 10%;
+}
+
+#mini-img{
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    width: 350px;
+    height: 450px;
+    background-image: url('https://images.unsplash.com/photo-1622262918009-6a39cd1fb49d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+#text{
+    position: absolute;
+    left:5%;
+    bottom: 21%;
+}
+
+#text h1{
+    color:white;
+    font-size: 90px;
+    font-weight: 900;
+    line-height: 75px;
+    letter-spacing:8px;
+    text-transform: uppercase;
+}
+
+#vertical-txt{
+    color: transparent;
+    position: absolute;
+    top: 38.3%;
+    right:-22.2%;
+}
+
+#vertical-txt h1{
+    transform:rotate(90deg);
+    letter-spacing: 7px;
+    font-size: 70px;
+    font-weight: 900;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.696);
+   
+}
+
+#nav{
+    color: whtie;
+    position: absolute;
+    left: 5.4%;
+    top: 11%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+#nav #logo{
+    width:  100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url('https://img.freepik.com/free-vector/men-s-apparel-shop-logo-apparel-business-branding-template-design-vector_53876-156430.jpg?w=740&t=st=1695824566~exp=1695825166~hmac=55a76f6340b85758408e0454037e221901b281e733d7be351321d3c350ceb6f8');
+    background-size: cover;
+    background-position:center;
+}
+
+
+
+#nav h4 {
+    margin-left: 90px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+  }
+  
