@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
 
 *{
     margin:0%;
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    
+    
 }
 
 
@@ -23,7 +26,47 @@ html, body{
     justify-content: center;
 }
 
+#nav{
+    display: flex;
+    position: absolute;
+    top:1%;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
 
+    padding: 30px;
+    text-transform: uppercase;
+    margin-right: 85px;
+
+}
+
+#nav h3{
+    font-family: 'Bitter', serif;
+    cursor: pointer;
+
+}
+
+#nav #left {
+    color: #087a08;
+}
+
+#nav #mid{
+    color: #3ff13f;
+    margin-right: 27px;
+
+}
+#menu{
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    cursor: pointer; 
+    
+}
+
+#menu h3 {
+    margin-left: 15px;
+    
+}
 #img{
     width: 400px;
     height: 550px;
@@ -40,7 +83,7 @@ html, body{
     width: 100%;
     /* display: flex; */
     position: absolute;
-    top:34%;
+    top:26%;
     white-space: nowrap;
     overflow-x:scroll;
     overflow-y: hidden;
@@ -73,7 +116,7 @@ html, body{
     color:transparent;
     width: 100%;
     position: absolute;
-    top:49%;
+    top:41%;
     white-space: nowrap;
     overflow-x:scroll;
     overflow-y: hidden;
@@ -102,7 +145,7 @@ html, body{
 #scroll-div3{
     position:absolute;
     width: 100%;
-    top:64%;
+    top:56%;
     white-space: nowrap;
     overflow-x:scroll;
     overflow-y: hidden;
@@ -131,7 +174,7 @@ html, body{
 
 
 #img-text{
-    top:18%;
+    top:16%;
     position: absolute;
     text-align: center;
     z-index: 15;
@@ -143,16 +186,27 @@ html, body{
     font-size: 30px;   
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
+    -webkit-text-stroke-width: 1px;
 }
 
 @keyframes scroll{
     0%{
         
-        transform: translateX(calc(-100% - 20px));
+        transform: translateX(calc(-100% - 18px));
     } 
     100%{
         transform: translateX(0)
     }
 }
 
+
+#left-bottom{
+    position: absolute;
+    width: 20%;
+    left: 40px;
+    top: 74%;
+    text-transform: uppercase;
+    line-height: 17px;
+    font-weight: 900;
+}
 
