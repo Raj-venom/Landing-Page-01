@@ -122,11 +122,36 @@ html, body{
     border: 2px solid red;
 
     display: flex;
-    align-items: center;
+    align-items: left;
+    /* justify-content:space-between; */
+
+    font-family: 'Urbanist', sans-serif;
+    
 
 }
 
 #detail #left{
     width: 45%;
-    height: 29%;
+    background-color: rgb(193, 151, 151);
+}
+
+#detail #right{
+    background-color: rgb(197, 190, 168);
+    /* width: 45%; */
+    display: flex;
+}
+#detail #right .conn {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+#right .conn-d  h4{
+    color: red;
+}
+#detail #right .conn-d p{
+    margin-top: 25px;
+    width: 250px;
+    font-size: 12px;
+
 }
